@@ -1,0 +1,94 @@
+.payment-details-container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header-section h2 {
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #888;
+    font-size: 14px;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control select,
+.form-control input {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #dce8ed;
+}
+
+.row1,
+.row2 {
+    display: flex;
+    padding: 9px;
+    align-content: center;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.price-section-control {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.steps {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-step {
+    display: flex;
+    flex-direction: column;
+}
+
+.coupon-finalprice-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    margin: 78px 74px 20px 70px;
+}
+
+.coupon-finalprice-section-box {
+    display: flex;
+    margin-top: 20px;
+}
+
+.price-section {
+    text-align: right;
+}
+
+.price-section p {
+    margin: 0;
+}
+
+.price-section .price {
+    color: #007bff;
+}
+
+.button-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button-section .back-button,
+.button-section .next-button {
+    padding: 10px 20px;
+    border: none;
+}
